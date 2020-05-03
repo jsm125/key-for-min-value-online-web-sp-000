@@ -2,7 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(test_scores)
-  test_scores = {:reading => 90, :math => 95, :spelling => 99}
   test_scores.each do |subject, value|
     if subject < 90 
 key_for_min_value(test_score)
